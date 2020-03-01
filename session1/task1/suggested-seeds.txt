@@ -1,0 +1,10 @@
+  Copy and paste two of these.
+	Replace the two lines following the line saying '// Paste two lines here'
+	with any (two) of the following:
+  IDvec.Add(StrToNIdH.GetKeyId("Emre_Telatar"));
+  IDvec.Add(StrToNIdH.GetKeyId("H._Vincent_Poor"));
+  IDvec.Add(StrToNIdH.GetKeyId("Yonina_C._Eldar"));
+  IDvec.Add(StrToNIdH.GetKeyId("Andrea_J._Goldsmith"));
+  IDvec.Add(StrToNIdH.GetKeyId("Ove_Edfors"));
+  IDvec.Add(StrToNIdH.GetKeyId("Emil_Bjornson"));
+  IDvec.Add(StrToNIdH.GetKeyId("Thomas_L._Marzetta"));

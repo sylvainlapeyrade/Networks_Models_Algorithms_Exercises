@@ -1,0 +1,8 @@
+# Degree correlation for mini-network
+r = -0.292770021885
+
+# knn for mini-network
+k   knn(k)
+1   3
+2   3
+3   2.5556

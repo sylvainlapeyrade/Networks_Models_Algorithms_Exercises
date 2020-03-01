@@ -1,0 +1,17 @@
+graph G {
+graph [overlap=false, orientation=portrait,splines=true, remincross=true];
+node [color=grey, style=filled];
+node [fontname="Verdana", size="30,30"];
+"1\nA" [color = red] ;
+"2\nA" [color = red] ;
+"2\nA" -- "1\nA";
+"3\nA" [color = red] ;
+"3\nA" -- "2\nA";
+"4\nB" [color = blue] ;
+"4\nB" -- "2\nA";
+"5\nB" [color = blue] ;
+"5\nB" -- "4\nB";
+"6\nB" [color = blue] ;
+"6\nB" -- "4\nB";
+"6\nB" -- "5\nB";
+}

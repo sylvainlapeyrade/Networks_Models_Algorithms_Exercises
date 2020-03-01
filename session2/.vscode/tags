@@ -1,0 +1,74 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+alpha	../task3.py	/^alpha = 0.85 * (1 \/ max(abs(katz_eigenvalues)))$/;"	kind:variable	line:42
+alpha	../task4.py	/^alpha = 0.85$/;"	kind:variable	line:36
+degree	../task1.py	/^    degree = np.loadtxt(link_file[i], dtype=int)  # Loads all links$/;"	kind:variable	line:34
+degree	../task2.py	/^degree = np.loadtxt(link_file, dtype=int)  # Loads all links$/;"	kind:variable	line:27
+degree	../task3.py	/^degree = np.loadtxt(link_file, dtype=int)  # Loads all links$/;"	kind:variable	line:29
+degree	../task4.py	/^degree = np.loadtxt(link_file, dtype=int)  # Loads all links$/;"	kind:variable	line:29
+degree	../task5.py	/^degree = np.loadtxt(link_file, dtype=int)  # Loads all links$/;"	kind:variable	line:31
+five_argmax_in	../task1.py	/^    five_argmax_in = in_degree.argsort()[-5:][::-1]$/;"	kind:variable	line:53
+five_argmax_katz	../task3.py	/^five_argmax_katz = katz_centrality.argsort()[-5:][::-1]$/;"	kind:variable	line:53
+five_argmax_out	../task1.py	/^    five_argmax_out = out_degree.argsort()[-5:][::-1]$/;"	kind:variable	line:54
+five_max_auth_arg	../task2.py	/^five_max_auth_arg = abs($/;"	kind:variable	line:60
+five_max_hub_arg	../task2.py	/^five_max_hub_arg = abs($/;"	kind:variable	line:58
+identity_matrix	../task3.py	/^identity_matrix = np.identity(n)$/;"	kind:variable	line:36
+in_degree	../task1.py	/^    in_degree = np.sum(m, axis=1)  # Row$/;"	kind:variable	line:43
+katz_centrality	../task3.py	/^katz_centrality = (1. \/ n) * np.matmul(np.linalg.inv($/;"	kind:variable	line:45
+katz_eigenvalues	../task3.py	/^katz_eigenvalues = np.linalg.eigvals(m)$/;"	kind:variable	line:38
+link_file	../task1.py	/^link_file = []$/;"	kind:variable	line:18
+link_file	../task2.py	/^link_file = open($/;"	kind:variable	line:18
+link_file	../task3.py	/^link_file = open($/;"	kind:variable	line:20
+link_file	../task4.py	/^link_file = open($/;"	kind:variable	line:20
+link_file	../task5.py	/^link_file = open($/;"	kind:variable	line:22
+m	../task1.py	/^    m = np.zeros((n, n), dtype=float)  # Matrix M initialized with 0$/;"	kind:variable	line:37
+m	../task2.py	/^m = np.zeros((n, n), dtype=float)  # Matrix M initialized with 0$/;"	kind:variable	line:30
+m	../task3.py	/^m = np.zeros((n, n), dtype=float)  # Matrix M initialized with 0$/;"	kind:variable	line:32
+m	../task4.py	/^m = np.zeros((n, n), dtype=float)  # Matrix M initialized with 0$/;"	kind:variable	line:32
+m	../task5.py	/^m = np.zeros((n, n), dtype=float)  # Matrix M initialized with 0$/;"	kind:variable	line:34
+m_mt	../task2.py	/^m_mt = np.matmul(m, m.transpose())  # M* M transposed$/;"	kind:variable	line:35
+max_auth_eigenvalue	../task2.py	/^max_auth_eigenvalue = np.argmax(abs(auth_eigenvalues))$/;"	kind:variable	line:45
+max_hub_eigenvalue	../task2.py	/^max_hub_eigenvalue = np.argmax(abs(hub_eigenvalues))$/;"	kind:variable	line:44
+mt_m	../task2.py	/^mt_m = np.matmul(m.transpose(), m)  # M transposed * M$/;"	kind:variable	line:34
+n	../task1.py	/^    n = max(map(max, degree))  # Number of nodes N$/;"	kind:variable	line:35
+n	../task2.py	/^n = max(map(max, degree))  # Number of nodes$/;"	kind:variable	line:28
+n	../task3.py	/^n = max(map(max, degree))  # Number of nodes$/;"	kind:variable	line:30
+n	../task4.py	/^n = max(map(max, degree))  # Number of nodes$/;"	kind:variable	line:30
+n	../task5.py	/^n = max(map(max, degree))  # Number of nodes$/;"	kind:variable	line:32
+network_number	../task1.py	/^network_number = 5$/;"	kind:variable	line:14
+network_number	../task2.py	/^network_number = 2  # Number of the file wanted$/;"	kind:variable	line:13
+network_number	../task3.py	/^network_number = 2  # Number of the file wanted$/;"	kind:variable	line:15
+network_number	../task4.py	/^network_number = 2  # Number of the file wanted$/;"	kind:variable	line:15
+network_number	../task5.py	/^network_number = 2  # Number of the file wanted$/;"	kind:variable	line:17
+networks	../task1.py	/^networks = [1, 2, 3, 4, 5]  # Override the random choice$/;"	kind:variable	line:19
+networks	../task1.py	/^networks = random.sample(range(1, 20), network_number)$/;"	kind:variable	line:15
+out_degree	../task1.py	/^    out_degree = np.sum(m, axis=0)  # Column$/;"	kind:variable	line:42
+task1.py	../task1.py	1;"	kind:file	line:1
+task2.py	../task2.py	1;"	kind:file	line:1
+task3.py	../task3.py	1;"	kind:file	line:1
+task4.py	../task4.py	1;"	kind:file	line:1
+task5.py	../task5.py	1;"	kind:file	line:1
+title_file	../task1.py	/^title_file = []$/;"	kind:variable	line:17
+title_file	../task2.py	/^title_file = open($/;"	kind:variable	line:15
+title_file	../task3.py	/^title_file = open($/;"	kind:variable	line:17
+title_file	../task4.py	/^title_file = open($/;"	kind:variable	line:17
+title_file	../task5.py	/^title_file = open($/;"	kind:variable	line:19
+title_list	../task1.py	/^    title_list = []$/;"	kind:variable	line:29
+title_list	../task2.py	/^title_list = []$/;"	kind:variable	line:22
+title_list	../task3.py	/^title_list = []$/;"	kind:variable	line:24
+title_list	../task4.py	/^title_list = []$/;"	kind:variable	line:24
+title_list	../task5.py	/^title_list = []$/;"	kind:variable	line:26
+titles	../task1.py	/^    titles = title_file[i].read().splitlines()  # Array of the titles$/;"	kind:variable	line:30
+titles	../task2.py	/^titles = title_file.read().splitlines()  # Array of the titles$/;"	kind:variable	line:23
+titles	../task3.py	/^titles = title_file.read().splitlines()  # Array of the titles$/;"	kind:variable	line:25
+titles	../task4.py	/^titles = title_file.read().splitlines()  # Array of the titles$/;"	kind:variable	line:25
+titles	../task5.py	/^titles = title_file.read().splitlines()  # Array of the titles$/;"	kind:variable	line:27
+total_eigenvector_auth_max	../task2.py	/^total_eigenvector_auth_max = sum(auth_eigenvectors[:, max_auth_eigenvalue])$/;"	kind:variable	line:48
+total_eigenvector_hub_max	../task2.py	/^total_eigenvector_hub_max = sum(hub_eigenvectors[:, max_hub_eigenvalue])$/;"	kind:variable	line:47
+total_in_degree	../task1.py	/^    total_in_degree = sum(in_degree)$/;"	kind:variable	line:45
+total_out_degree	../task1.py	/^    total_out_degree = sum(out_degree)$/;"	kind:variable	line:46
+vector_I	../task3.py	/^vector_I = np.ones((n, 1), dtype=int)$/;"	kind:variable	line:40
